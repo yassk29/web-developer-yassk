@@ -1,2 +1,2 @@
 # web-developer-yassk
- I making a small  website that contain three differenet nav bar and it contains some information.
+ I make a small  website that contain three differenet nav bar like home,projects,blogs and it contains some information.
