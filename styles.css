@@ -3,12 +3,13 @@
 :root {
     --primary-color: #F59E0B;
     --dark-gray: #4B5563;
-    --off-white: #F3F4F6;
+    --off-white: #FEF3C7;
+    --white: #FFFBEB;
 }
 
 body {
     font-family: 'Titillium Web', sans-serif;
-    max-width: 800px;
+    /* max-width: 800px; */
     margin: auto;
 
 }
@@ -29,7 +30,7 @@ body {
 }
 
 .link {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5pt;
     text-decoration: none;
 }
 
@@ -37,6 +38,7 @@ body {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: black;
+    padding: 0.5rem;
 }
 
 .link-secondary {
@@ -54,13 +56,23 @@ body {
     padding: 1rem;
 }
 
+.inline-list a:hover{
+    color: white;
+}
+
 .nav {
+    /* background-image: linear-gradient( to right, var(--off-white), var(--primary-color) );
+    color: black;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem; */
     background-color: var(--primary-color);
     color: black;
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     padding: 0.5rem;
 }
+
+
 
 .nav .nav-brand {
     font-weight: bold;
@@ -90,7 +102,7 @@ body {
 }
 
 .image {
-    max-width: 300px;
+    max-width: 400px;
     display: block;
     margin: auto;
 }
@@ -98,6 +110,10 @@ body {
 .off-white {
     background-color: var(--off-white);
     padding: 2rem;
+}
+
+.white {
+    background-color: var(--white);
 }
 
 .white {
