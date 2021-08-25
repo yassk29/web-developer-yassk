@@ -34,6 +34,12 @@ body {
     text-decoration: none;
 }
 
+.b2link {
+    padding: 0.5rem 0.5pt;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
@@ -103,6 +109,18 @@ body {
 
 .image {
     max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.b2image2 {
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+.b2image1 {
+    max-width: 300px;
     display: block;
     margin: auto;
 }
